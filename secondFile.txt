@@ -3,9 +3,14 @@ i=`dirname /`
 echo "$i"
 
 i=$(dirname /)
+
+i=`dirname / 888888`
+echo "$i"
+
+i=$(dirname test)
 echo "$VAR"
 
-LOG EVENT {Description=[Time taken for this installation],Detail=[04 hours 07 minutes]}
+LOG EVENT {Description=[Time taken for this installation],Detail=[]}
 sed -n '/LOG EVENT/,/}/p' myfile
 sed -n 1p file.txt
 
@@ -13,3 +18,5 @@ sed -n 1p file.txt
 sdkgfhsdvfkhdv
 sdhvjfdhvf
 Added info-By Yogesh
+
+added by Sipra
