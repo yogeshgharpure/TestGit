@@ -1,4 +1,9 @@
 #!/bin/bash
+i=`dirname /`
+echo "$i"
+
+i=$(dirname /)
+
 i=`dirname / 888888`
 echo "$i"
 
@@ -12,5 +17,6 @@ sed -n 1p file.txt
 
 sdkgfhsdvfkhdv
 sdhvjfdhvf
+Added info-By Yogesh
 
 added by Sipra
