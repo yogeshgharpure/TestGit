@@ -1,8 +1,8 @@
 #!/bin/bash
-i=`dirname /opt/bmc/ARSystem/bin/arsystem`
+i=`dirname /`
 echo "$i"
 
-i=$(dirname /opt/bmc/ARSystem/bin/arsystem)
+i=$(dirname /)
 echo "$VAR"
 
 LOG EVENT {Description=[Time taken for this installation],Detail=[04 hours 07 minutes]}
@@ -12,3 +12,4 @@ sed -n 1p file.txt
 
 sdkgfhsdvfkhdv
 sdhvjfdhvf
+Added info-By Yogesh
